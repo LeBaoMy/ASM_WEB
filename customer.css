@@ -1,0 +1,57 @@
+
+
+body {
+    background-color: #FFF5EE; 
+    color: #7a2543; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #e6a9c7; 
+    margin-top: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px #6b0f1a;
+
+}
+
+.customer-info {
+    background-color: #ffc1db; 
+    border: 2px solid #ff69b4; 
+    border-radius: 8px;
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(175, 127, 151, 0.5); 
+}
+.customer-info h2 {
+    text-align: center;
+    color: #ff69b4; 
+}
+
+.customer-info p {
+    font-size: 16px;
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.customer-info button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff69b4; 
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.customer-info button:hover {
+    background-color: #ff1493; 
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="Register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <h1>Myn WatchShop</h1>
+   <div class="Register">
+    <h2>Create new account</h2>
+    <form action="">
+        <div class="input_name">
+            <i class="fa-solid fa-user"></i>
+            <input type="text" placeholder="First Name" class="name">
+            <span>
+                <i class="fa fa-user"></i>
+                <input type="text" placeholder="Last Name" class="name">
+            </span>
+        </div>
+        <div class="input_name">
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" placeholder="Email" class="infor">
+        </div>   
+        <div class="input_name">
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" placeholder="Password" class="infor">
+        </div>
+        <div class="input_name">
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" placeholder="Confirm Password" class="infor">
+        </div>
+        <div class="input_name">
+            <input type="radio" class="radio-button" name="s1" >
+            <label style="margin-right:10px ;">Male</label>
+            <input type="radio" class="radio-button" name="s1">
+            <label style="margin-right:10px ;">Female</label>
+            <input type="radio" class="radio-button" name="s1">
+            <label style="margin-right:10px ;">Other</label>
+        </div>
+        <div class="input_name">
+            <input type="date" name="bday">
+        </div>
+        <div class="input_name">
+            <input type="submit" class="button-1" value="Register" ><br>
+            <input type="button" class="button-2" value="Already have an account? Click here" onclick="location.href = 'login.html'">
+        </div>
+        </form>
+</div>
+
+<script src="Register.js"></script>
+
+
+</body>
+</html>

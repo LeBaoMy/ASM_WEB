@@ -1,0 +1,74 @@
+
+h1{
+    color: #DB7093;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    background-color:#FFF5EE ;
+}
+.checkout{
+    background-color: whites;
+    width: 500px;
+    padding: 25px;
+    margin: 50px auto 0;
+    border: 1.5px solid palevioletred;
+
+}  
+
+.checkout h2{
+    
+        color: #FFB6C1;
+        text-align: center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        line-height: 24px;
+        padding: 20px;
+    }
+.input-name{
+    width: 90%;
+    position: relative;
+    margin:20px auto ;
+}
+.lock{
+    padding: 8px 11px;
+}
+.name{
+    width: 100%;
+    padding: 8px 0 8px 30px ;
+}
+.infor{
+    width: 100%;
+    padding: 8px 0 8px 30px ;
+
+}
+.input-name i{
+    position: absolute;
+    font-size: 15px;
+    color: #DB7093;  
+    padding: 8px;
+}
+.button-1{
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    background-color:#FFF0F5;
+    border: 1px solid ;
+    border-radius: 10px;
+}
+.button-2{
+    background-color:#FFF5EE ;
+    border: #FFF5EE;
+    color:#83304b ;
+}
+
+.radio-button{
+    margin-right: 4px;
+}
